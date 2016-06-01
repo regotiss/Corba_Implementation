@@ -1,0 +1,7 @@
+module AccountSection{
+	interface Account{
+		void deposit(in long amount);
+		void withdraw(in long amount);
+		long getBalance();
+	};
+};
